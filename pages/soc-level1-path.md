@@ -10,12 +10,26 @@ Each section represents a module in the path, and the status button indicates my
 
 ## Sections
 
-<ul class="section-list">
+<div class="section-list">
 {% for section in site.data.soc_rooms %}
-  <li class="section-item">
+  <div class="section-item">
     <h3>{{ section.title }}</h3>
     <p>{{ section.description }}</p>
-    {% include room_status.html status=section.status %}
-  </li>
+    <span class="status status-{{ section.status }}">
+      {{ section.status | capitalize }}
+    </span>
+    {% if section.rooms.size > 0 %}
+      <ul class="room-list">
+        {% for room in section.rooms %}
+          <li>
+            <a href="{{ room.url }}">{{ room.title }}</a>
+            <span class="room-status status-{{ room.status }}">
+              {{ room.status | capitalize }}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
 {% endfor %}
-</ul>
+</div>

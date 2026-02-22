@@ -1,10 +1,17 @@
 .section-list {
-  list-style: none;
-  padding: 0;
+  max-width: 800px;
 }
 
 .section-item {
   margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.section-item h3 {
+  margin-top: 0;
 }
 
 .status {
@@ -29,4 +36,27 @@
 .status-finished {
   background-color: #28a745;
   color: white;
+}
+
+.room-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.section-item h3 {
+  margin-top: 0;
+  color: #333;
 }
