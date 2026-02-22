@@ -3,10 +3,10 @@
 title: Peter Korman -  SOC / Blue Team Analyst
 description: Portfolio of hands-on labs (TryHackMe, Splunk) and SOC Level 1 path progress.
 baseurl: ""
-url: "https://peterkor.github.io"
+#url: "https://peterkor.github.io"
 
 # Jekyll theme (GitHub Pages supported)
-theme: minima
+theme: jekyll-theme-minimal
 
 # Plugins (GitHub Pages default)
 plugins:
