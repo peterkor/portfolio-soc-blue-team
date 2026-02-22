@@ -1,6 +1,6 @@
 # _config.yml - GitHub Pages with Jekyll
 
-title: [Your Name] -  SOC / Blue Team Analyst
+title: Peter Korman -  SOC / Blue Team Analyst
 description: Portfolio of hands-on labs (TryHackMe, Splunk) and SOC Level 1 path progress.
 baseurl: ""
 url: "https://peterkor.github.io"
