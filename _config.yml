@@ -1,3 +1,29 @@
-theme: jekyll-theme-minimal
-title: Portfolio - SOC / Blue Team
-description: Portfolio of hands-on labs (TryHackMe, Splunk)
+# _config.yml - GitHub Pages with Jekyll
+
+title: [Your Name] -  SOC / Blue Team Analyst
+description: Portfolio of hands-on labs (TryHackMe, Splunk) and SOC Level 1 path progress.
+baseurl: ""
+url: "https://peterkor.github.io"
+
+# Jekyll theme (GitHub Pages supported)
+theme: minima
+
+# Plugins (GitHub Pages default)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown engine
+markdown: kramdown
+
+# Permalink structure
+permalink: /:title/
+
+# Exclude files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md

@@ -1,0 +1,252 @@
+# SOC Level 1 Path – all rooms (status: planned)
+# https://tryhackme.com/careers/cyber-security-analyst
+
+- id: blue-team-introduction
+  title: Blue Team Introduction
+  section: Blue Team Introduction
+  status: planned
+  rooms:
+    - id: junior-security-analyst-intro
+      title: Junior Security Analyst Intro
+      url: https://tryhackme.com/room/jrsecanalystintro
+      status: planned
+
+    - id: soc-role-in-blue-team
+      title: SOC Role in Blue Team
+      url: https://tryhackme.com/room/socroleinblueteam
+      status: planned
+
+    - id: humans-as-attack-vectors
+      title: Humans as Attack Vectors
+      url: https://tryhackme.com/room/humansasattackvectors
+      status: planned
+
+    - id: systems-as-attack-vectors
+      title: Systems as Attack Vectors
+      url: https://tryhackme.com/room/systemsasattackvectors
+      status: planned
+
+- id: soc-team-internals
+  title: SOC Team Internals
+  section: SOC Team Internals
+  status: planned
+  rooms:
+    - id: soc-l1-alert-triage
+      title: SOC L1 Alert Triage
+      url: https://tryhackme.com/room/socl1alerttriage
+      status: planned
+
+    - id: soc-l1-alert-reporting
+      title: SOC L1 Alert Reporting
+      url: https://tryhackme.com/room/socl1alertreporting
+      status: planned
+
+    - id: soc-workbooks-and-lookups
+      title: SOC Workbooks and Lookups
+      url: https://tryhackme.com/room/socworkbooksandlookups
+      status: planned
+
+    - id: soc-metrics-and-objectives
+      title: SOC Metrics and Objectives
+      url: https://tryhackme.com/room/socmetricsandobjectives
+      status: planned
+
+- id: core-soc-solutions
+  title: Core SOC Solutions
+  section: Core SOC Solutions
+  status: planned
+  rooms:
+    - id: siem-triage-with-splunk
+      title: SIEM Triage with Splunk
+      url: https://tryhackme.com/room/siemtriagewithsplunk
+      status: planned
+
+    - id: siem-triage-with-elastic
+      title: SIEM Triage with Elastic
+      url: https://tryhackme.com/room/siemtriagewithelastic
+      status: planned
+
+    - id: edr-in-soc
+      title: EDR in SOC
+      url: https://tryhackme.com/room/edrinSOC
+      status: planned
+
+    - id: soar-in-soc
+      title: SOAR in SOC
+      url: https://tryhackme.com/room/soarinSOC
+      status: planned
+
+- id: cyber-defence-frameworks
+  title: Cyber Defence Frameworks
+  section: Cyber Defence Frameworks
+  status: planned
+  rooms:
+    - id: cyber-kill-chain
+      title: Cyber Kill Chain
+      url: https://tryhackme.com/room/cyberkillchain
+      status: planned
+
+    - id: mitre-attack
+      title: MITRE ATT&CK
+      url: https://tryhackme.com/room/mitreattack
+      status: planned
+
+    - id: pyramid-of-pain
+      title: Pyramid of Pain
+      url: https://tryhackme.com/room/pyramidofpain
+      status: planned
+
+- id: phishing-analysis
+  title: Phishing Analysis
+  section: Phishing Analysis
+  status: planned
+  rooms:
+    - id: intro-to-phishing
+      title: Introduction to Phishing
+      url: https://tryhackme.com/room/introphishing
+      status: planned
+
+    - id: phishing-analysis-lab
+      title: Phishing Analysis Lab
+      url: https://tryhackme.com/room/phishinganalysislab
+      status: planned
+
+- id: network-traffic-analysis
+  title: Network Traffic Analysis
+  section: Network Traffic Analysis
+  status: planned
+  rooms:
+    - id: traffic-analysis-with-wireshark
+      title: Traffic Analysis with Wireshark
+      url: https://tryhackme.com/room/trafficanalysiswithwireshark
+      status: planned
+
+    - id: tshark-basics
+      title: TShark: The Basics
+      url: https://tryhackme.com/room/tsharkbasics
+      status: planned
+
+- id: network-security-monitoring
+  title: Network Security Monitoring
+  section: Network Security Monitoring
+  status: planned
+  rooms:
+    - id: snort-ids-basics
+      title: Snort: IDS Basics
+      url: https://tryhackme.com/room/snortidsbasics
+      status: planned
+
+    - id: zeek-network-monitoring
+      title: Zeek: Network Monitoring
+      url: https://tryhackme.com/room/zeeknetworkmonitoring
+      status: planned
+
+- id: web-security-monitoring
+  title: Web Security Monitoring
+  section: Web Security Monitoring
+  status: planned
+  rooms:
+    - id: web-security-monitoring-lab
+      title: Web Security Monitoring Lab
+      url: https://tryhackme.com/room/websecuritymonitoringlab
+      status: planned
+
+- id: windows-security-monitoring
+  title: Windows Security Monitoring
+  section: Windows Security Monitoring
+  status: planned
+  rooms:
+    - id: windows-event-logs
+      title: Windows Event Logs
+      url: https://tryhackme.com/room/windowseventlogs
+      status: planned
+
+    - id: sysmon
+      title: Sysmon
+      url: https://tryhackme.com/room/sysmon
+      status: planned
+
+- id: linux-security-monitoring
+  title: Linux Security Monitoring
+  section: Linux Security Monitoring
+  status: planned
+  rooms:
+    - id: linux-logging
+      title: Linux Logging
+      url: https://tryhackme.com/room/linuxlogging
+      status: planned
+
+- id: malware-concepts-for-soc
+  title: Malware Concepts for SOC
+  section: Malware Concepts for SOC
+  status: planned
+  rooms:
+    - id: malware-concepts
+      title: Malware Concepts
+      url: https://tryhackme.com/room/malwareconcepts
+      status: planned
+
+    - id: living-off-the-land
+      title: Living Off the Land
+      url: https://tryhackme.com/room/livingofftheland
+      status: planned
+
+- id: threat-analysis-tools
+  title: Threat Analysis Tools
+  section: Threat Analysis Tools
+  status: planned
+  rooms:
+    - id: threat-intelligence
+      title: Threat Intelligence
+      url: https://tryhackme.com/room/threatintelligence
+      status: planned
+
+    - id: yara
+      title: Yara
+      url: https://tryhackme.com/room/yara
+      status: planned
+
+- id: siem-triage-for-soc
+  title: SIEM Triage for SOC
+  section: SIEM Triage for SOC
+  status: planned
+  rooms:
+    - id: siem-triage-for-soc-lab
+      title: SIEM Triage for SOC Lab
+      url: https://tryhackme.com/room/siemtriageforsoclab
+      status: planned
+
+- id: soc-level-1-capstone-challenges
+  title: SOC Level 1 Capstone Challenges
+  section: SOC Level 1 Capstone Challenges
+  status: planned
+  rooms:
+    - id: tempest
+      title: Tempest
+      url: https://tryhackme.com/room/tempest
+      status: planned
+
+    - id: boogeyman-1
+      title: Boogeyman 1
+      url: https://tryhackme.com/room/boogeyman1
+      status: planned
+
+    - id: boogeyman-2
+      title: Boogeyman 2
+      url: https://tryhackme.com/room/boogeyman2
+      status: planned
+
+    - id: boogeyman-3
+      title: Boogeyman 3
+      url: https://tryhackme.com/room/boogeyman3
+      status: planned
+
+- id: security-analyst-level-1
+  title: Security Analyst Level 1 (SAL1)
+  section: Security Analyst Level 1 (SAL1)
+  status: planned
+  rooms:
+    - id: sal1-exam
+      title: Security Analyst Level 1 (SAL1) Exam
+      url: https://tryhackme.com/certification/security-analyst-level-1
+      status: planned
