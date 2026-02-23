@@ -1,5 +1,5 @@
 ---
-layout: default
+#layout: default
 title: SOC Level 1 Path
 ---
 

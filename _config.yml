@@ -2,8 +2,8 @@
 
 title: Peter Korman -  SOC / Blue Team Analyst
 description: Portfolio of hands-on labs (TryHackMe, Splunk) and SOC Level 1 path progress.
-#baseurl: "/portfolio-soc-blue-team"  # ← TOHLE JE KLÍČOVÉ!
-baseurl: ""  # ← TOHLE JE KLÍČOVÉ!
+baseurl: "/portfolio-soc-blue-team"  # ← TOHLE JE KLÍČOVÉ!
+#baseurl: ""  # ← TOHLE JE KLÍČOVÉ!
 url: "https://peterkor.github.io"
 
 # Jekyll theme (GitHub Pages supported)
@@ -21,10 +21,10 @@ theme: jekyll-theme-minimal
 #permalink: /:title/
 
 # Exclude files from build
-#exclude:
-#  - Gemfile
-#  - Gemfile.lock
-#  - node_modules
-#  - vendor
-#  - .gitignore
-#  - README.md
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md
