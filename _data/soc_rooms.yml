@@ -52,7 +52,7 @@
 - id: core-soc-solutions
   title: Core SOC Solutions
   description: Understanding security solutions is key for SOC analysts. This module covers SIEM, EDR and SOAR, the core security solutions used in a SOC.
-  status: finished
+  status: working
   rooms:
     - id: introduction-to-edr
       title: "Introduction to EDR"
