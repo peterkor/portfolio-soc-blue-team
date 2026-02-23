@@ -5,74 +5,74 @@
   title: Blue Team Introduction
   description: "Start your defensive security career by exploring the Blue Team and its core - the Security Operations Centre (SOC). You’ll learn why defensive security is essential and how it helps organisations stay protected against attacks."
   status: finished
-    rooms:
-    - title: "Junior Security Analyst Intro"
-      url: "https://tryhackme.com/room/jrsecanalystintrouxo"
-        description: "Play through a day in the life of a Security Analyst and experience their everyday duties."
+  rooms:
+      - id: junior-security-analyst-intro
+        title: "Junior Security Analyst Intro"
+        url: "https://tryhackme.com/room/jrsecanalystintrouxo"
         status: finished
-    - title: "SOC Role in Blue Team"
-      url: "https://tryhackme.com/room/socroleinblueteam"
-      description: "Discover security roles and learn how to advance your SOC career, starting from the L1 analyst."
-      status: finished
-    - title: "Humans as Attack Vectors"
-      url: "https://tryhackme.com/room/humansattackvectors"
-      description: "Understand why and how people are targeted in cyber attacks and how the SOC helps defend them."
-      status: finished
-    - title: "Systems as Attack Vectors"
-      url: "https://tryhackme.com/room/systemsattackvectors"
-      description: "Learn how attackers exploit vulnerable and misconfigured systems, and how you can protect them."
-      status: finished
+      - id: soc-role-blue-team
+        title: "SOC Role in Blue Team"
+        url: "https://tryhackme.com/room/socroleinblueteam"
+        status: finished
+      - id: humans-attack-vectors
+        title: "Humans as Attack Vectors"
+        url: "https://tryhackme.com/room/humansattackvectors"
+        status: finished
+      - id: systems-attack-vectors
+        title: "Systems as Attack Vectors"
+        url: "https://tryhackme.com/room/systemsattackvectors"
+        status: finished
 
 - id: soc-team-internals
   title: SOC Team Internals
   description: Explore the essential SOC analyst skills to help you triage, classify, and escalate alerts in real-world SOC environments.
   status: finished
-   rooms:
-    - title: "SOC L1 Alert Triage"
-      url: "https://tryhackme.com/room/socl1alerttriage"
-      description: "Learn more about SOC alerts and build a systematic approach to efficiently triaging them."
-      status: finished
-    - title: "SOC L1 Alert Reporting"
-      url: "https://tryhackme.com/room/socl1alertreporting"
-      description: "Learn how to properly report, escalate, and communicate about high-risk SOC alerts."
-      status: finished
-    - title: "SOC Workbooks and Lookups"
-      url: "https://tryhackme.com/room/socworkbookslookups"
-      description: "Discover useful corporate resources to help you structure and simplify L1 alert triage."
-      status: finished
-    - title: "SOC Metrics and Objectives"
-      url: "https://tryhackme.com/room/socmetricsobjectives"
-      description: "Explore key metrics driving SOC effectiveness and discover ways to improve them."
-      status: finished
-    - title: "Introduction to Phishing"
-      url: "https://tryhackme.com/soc-sim/scenarios?scenario=introduction-to-phishing"
-      description: "NEW? START HERE! Learn how to use SOC Simulator by completing your first scenario."
-      status: finished
+  rooms:
+      - id: soc-l1-alert-triage
+        title: "SOC L1 Alert Triage"
+        url: "https://tryhackme.com/room/socl1alerttriage"
+        status: finished
+      - id: soc-l1-alert-reporting
+        title: "SOC L1 Alert Reporting"
+        url: "https://tryhackme.com/room/socl1alertreporting"
+        status: finished
+      - id: soc-workbooks-lookups
+        title: "SOC Workbooks and Lookups"
+        url: "https://tryhackme.com/room/socworkbookslookups"
+        status: finished
+      - id: soc-metrics-objectives
+        title: "SOC Metrics and Objectives"
+        url: "https://tryhackme.com/room/socmetricsobjectives"
+        status: finished
+      - id: introduction-to-phishing
+        title: "Introduction to Phishing"
+        url: "https://tryhackme.com/soc-sim/scenarios?scenario=introduction-to-phishing"
+        status: finished
 
 - id: core-soc-solutions
   title: Core SOC Solutions
   description: Understanding security solutions is key for SOC analysts. This module covers SIEM, EDR and SOAR, the core security solutions used in a SOC.
   status: finished
   rooms:
-    - title: "Introduction to EDR"
+    - id: introduction-to-edr
+      title: "Introduction to EDR"
       url: "https://tryhackme.com/room/introductiontoedrs"
-      description: "Learn the fundamentals of EDR and explore its features and working."
       status: finished
-    - title: "Introduction to SIEM"
+    - id: introduction-to-siem
+      title: "Introduction to SIEM"
       url: "https://tryhackme.com/room/introtosiem"
-      description: "Learn the fundamentals of SIEM and explore its features and functionality."
       status: finished
-    - title: "Splunk: The Basics"
+    - id: splunk-the-basics
+      title: "Splunk: The Basics"
       url: "https://tryhackme.com/room/splunk101"
-      description: "Understand how SOC analysts use Splunk for log investigations."
       status: finished
-    - title: "Elastic Stack: The Basics"
+    - id: elastic-stack-basics
+      title: "Elastic Stack: The Basics"
       url: "https://tryhackme.com/room/investigatingwithelk101"
-      description: "Understand how SOC analysts use the Elastic Stack (ELK) for log investigations."
       status: planned
-    - title: "Introduction to SOAR"
+    - id: introduction-to-soar
+      title: "Introduction to SOAR"
       url: "https://tryhackme.com/room/soar"
-      description: "Learn the concepts and methodology surrounding security orchestration, automation, and response."
       status: planned
 
 - id: cyber-defence-frameworks
