@@ -19,7 +19,7 @@ This portfolio documents my hands‑on labs (TryHackMe, Splunk) and my journey t
 
 ## SOC Level 1 Path – Progress
 
-I am currently in 15% of the SOC Level 1 path. I will document each module as I complete it.  
+I am currently in 26% of the SOC Level 1 path. I will document each module as I complete it.  
 See the full path: [SOC Level 1 on TryHackMe](https://tryhackme.com/careers/cyber-security-analyst).
 
 ## Splunk Deep‑Dive
