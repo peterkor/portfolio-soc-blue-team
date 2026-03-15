@@ -1,6 +1,6 @@
 ---
 title: About
-soc_progress: 28
+soc_progress: 30
 ---
 
 # Peter Korman –  SOC / Blue Team Analyst
